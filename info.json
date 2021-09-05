@@ -1,11 +1,14 @@
 {
   "name": "uraniumlogistics",
   "version": "0.1.0",
-  "title": "Uranium Logistics | Forked \"Leighzer's Uranium Logistics \"",
+  "title": "Uranium Logistics | Fork",
   "author": "Nesilar",
   "contact": "Discord: Nesilar#0827",
   "homepage": "",
   "factorio_version": "1.1",
-  "dependencies": [ "base >= 1.1.0"],
-  "description": "This mod adds new tier of belts - uranium belts."
+  "dependencies": [ 
+    "base >= 1.1.0",
+    "?more-miniloaders >= 1.0.7"
+  ],
+  "description": "This mod adds new tier of belts - uranium belts. Forked \"Leighzer's Uranium Logistics \""
 }
