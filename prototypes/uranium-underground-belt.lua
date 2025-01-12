@@ -13,7 +13,8 @@ data:extend({
     subgroup = "belt",
     order = "b[underground-belt]-d[uranium-underground-belt]",
     place_result = "uranium-underground-belt",
-    stack_size = 50
+    stack_size = 50,
+    allow_as_intermediate = true,
   },
 
   {
@@ -24,13 +25,20 @@ data:extend({
     energy_required = 1,
     ingredients =
     {
-      {"express-underground-belt",2},
-      {"steel-plate",160},
-      {"uranium-235",10},
-      {name="sulfuric-acid",amount=100,type="fluid"}
+      {type = "item",  name = "express-underground-belt", amount = 2},
+      {type = "item",  name = "steel-plate", amount = 160},
+      {type = "item",  name = "uranium-235", amount = 10},
+      {type = "fluid", name = "sulfuric-acid", amount = 100}
     },
-    result_count = 2,
-    result = "uranium-underground-belt"
+
+    results = {
+      {type = "item", name = "uranium-underground-belt", amount = 2, probability = 1.0},
+    },
+    allow_as_intermediate = true,
+    crafting_machine_tint = {
+      primary = {r = 0.1, g = 1.0, b = 0.1, a = 0.8},
+      secondary = {r = 0.1, g = 0.8, b = 0.1, a = 0.5},
+    },    
   },
 
   {

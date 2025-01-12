@@ -4,7 +4,6 @@ local hit_effects = require ("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 
 data:extend({  
-
   {
     type = "item",
     name = "uranium-splitter",
@@ -13,7 +12,8 @@ data:extend({
     subgroup = "belt",
     order = "c[splitter]-d[uranium-splitter]",
     place_result = "uranium-splitter",
-    stack_size = 50
+    stack_size = 50,
+    allow_as_intermediate = true,
   },
 
   {
@@ -24,13 +24,21 @@ data:extend({
     energy_required = 1,
     ingredients =
     {
-      {"processing-unit", 10},
-      {"express-splitter", 1},
-      {name="sulfuric-acid",amount=200,type="fluid"},
-      {"uranium-235",3},
-      {"steel-plate",10}
+      {type = "item",  name = "processing-unit", amount = 10},
+      {type = "item",  name = "express-splitter", amount = 1},
+      {type = "item",  name = "steel-plate", amount = 10},
+      {type = "item",  name = "uranium-235", amount = 3},
+      {type = "fluid", name = "sulfuric-acid", amount = 200}
     },
-    result = "uranium-splitter"
+
+    results = {
+      {type = "item", name = "uranium-splitter", amount = 1, probability = 1.0},
+    },
+    allow_as_intermediate = true,
+    crafting_machine_tint = {
+      primary = {r = 0.1, g = 1.0, b = 0.1, a = 0.8},
+      secondary = {r = 0.1, g = 0.8, b = 0.1, a = 0.5},
+    },
   },
 
   {
@@ -60,6 +68,7 @@ data:extend({
       speed = 0.125,
       belt_animation_set = uranium_basic_belt_animation_set,
       working_sound = sounds.splitter,
+      next_upgrade = nil,
       structure =
       {
         north =

@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+  Warning:
+    - Compatibility with mods "more-miniloaders" and "LoaderRedux" is untested.
+  Info:
+    - Updated to 2.0.2
+  Balancing: 
+    - Mod is now incompatible with "Space Age DLC" (space-age) because of DLC's tier 4 belts.   
+---------------------------------------------------------------------------------------------------
 Version: 0.2.0
   Changes:
     - New icon for "Uranium Belt" to match the style of basic belts (Huge thanks to BluestoneDE)
