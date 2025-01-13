@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Info:
+    - Compatibility with mods "more-miniloaders" and "LoaderRedux" was removed due to this mods probably will not receive any updates.
+---------------------------------------------------------------------------------------------------
 Version: 0.3.0
   Warning:
     - Compatibility with mods "more-miniloaders" and "LoaderRedux" is untested.
