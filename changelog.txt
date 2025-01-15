@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Info:
+    - Compatibility with mods "prismatic-belts" was added.
+    - Russian localization removed.
+    - Finally can call this update "version 1.0.0".
+---------------------------------------------------------------------------------------------------
 Version: 0.3.2
   Info:
     - Compatibility with mods "aai-loaders" and "deadlock-beltboxes-loaders" was added.
