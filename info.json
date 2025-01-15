@@ -1,6 +1,6 @@
 {
   "name": "uraniumlogistics",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "title": "Uranium Logistics | Fork",
   "author": "Nesilar",
   "contact": "Discord: nesilar",
@@ -8,6 +8,8 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.2",
+    "? aai-loaders >= 0.2.5",
+    "? deadlock-beltboxes-loaders >= 2.6.0",
     "! space-age >= 2.0.2"
   ],
   "description": "This mod adds new tier of belts - uranium belts. Forked \"Leighzer's Uranium Logistics \""
