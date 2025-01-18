@@ -22,7 +22,7 @@ local uraniumLogisticsTech =
     prerequisites = {"kovarex-enrichment-process"},
     unit =
     {
-      count = 1500,
+      count = 1000,
       ingredients =
       {
         {"automation-science-pack", 1},
