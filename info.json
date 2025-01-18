@@ -1,6 +1,6 @@
 {
   "name": "uraniumlogistics",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Uranium Logistics | Fork",
   "author": "Nesilar",
   "contact": "Discord: nesilar",
@@ -10,6 +10,7 @@
     "base >= 2.0.2",
     "? aai-loaders >= 0.2.5",
     "? deadlock-beltboxes-loaders >= 2.6.0",
+    "? miniloader-redux >= 0.5.1",
     "? prismatic-belts >= 2.0.4",
     "! space-age >= 2.0.2"
   ],

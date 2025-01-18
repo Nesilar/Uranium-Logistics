@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  Info:
+    - Compatibility with mods "miniloader-redux" was added.
+    - Fixed Upgrade Planner to work with AAI-Express loader upgrade to AAI-Uranium loader.
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
   Info:
     - Compatibility with mods "prismatic-belts" was added.
@@ -25,8 +30,8 @@ Version: 0.3.0
 Version: 0.2.0
   Changes:
     - New icon for "Uranium Belt" to match the style of basic belts (Huge thanks to BluestoneDE)
-	- Fixed changelog formating
-	- Added Ukrainian localization
+	  - Fixed changelog formating
+	  - Added Ukrainian localization
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
   Changes:
