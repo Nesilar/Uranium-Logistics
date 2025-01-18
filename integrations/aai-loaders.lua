@@ -44,4 +44,9 @@ if mods["aai-loaders"] then
         next_upgrade = nil,
         localise = false
     }
+
+    if settings.startup["aai-loaders-mode"].value ~= "graphics-only" then
+        --graphics only mode won't have aai's loader defined
+        data.raw["loader-1x1"]["aai-express-loader"].next_upgrade = "aai-uranium-loader"
+    end
 end
