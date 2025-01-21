@@ -1,7 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+  Info:
+    - Compatibility with mod "belt-legacy" was added.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
   Info:
-    - Compatibility with mods "miniloader-redux" was added.
+    - Compatibility with mod "miniloader-redux" was added.
     - Fixed Upgrade Planner to work with AAI-Express loader upgrade to AAI-Uranium loader.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0

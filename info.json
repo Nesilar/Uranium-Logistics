@@ -1,6 +1,6 @@
 {
   "name": "uraniumlogistics",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "title": "Uranium Logistics | Fork",
   "author": "Nesilar",
   "contact": "Discord: nesilar",
@@ -12,6 +12,7 @@
     "? deadlock-beltboxes-loaders >= 2.6.0",
     "? miniloader-redux >= 0.5.1",
     "? prismatic-belts >= 2.0.4",
+    "? belt-legacy >= 2.0.2",
     "! space-age >= 2.0.2"
   ],
   "description": "This mod adds new tier of belts - uranium belts. Forked \"Leighzer's Uranium Logistics \""
