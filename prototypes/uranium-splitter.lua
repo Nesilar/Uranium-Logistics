@@ -1,5 +1,7 @@
 require("prototypes.uranium-transport-belt-pictures")
 
+local cheap_recipe = settings.startup["uranium-logistics_cheap_recipe"].value
+
 local hit_effects = require ("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 
@@ -22,7 +24,15 @@ data:extend({
     category = "crafting-with-fluid",
     enabled = false,
     energy_required = 1,
-    ingredients =
+    ingredients = cheap_recipe and
+    {
+      {type = "item",  name = "processing-unit", amount = 10},
+      {type = "item",  name = "express-splitter", amount = 1},
+      {type = "item",  name = "steel-plate", amount = 10},
+      {type = "item",  name = "uranium-238", amount = 15},
+      {type = "fluid", name = "sulfuric-acid", amount = 200}
+    }
+    or 
     {
       {type = "item",  name = "processing-unit", amount = 10},
       {type = "item",  name = "express-splitter", amount = 1},

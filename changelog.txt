@@ -1,4 +1,8 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+  Balancing: 
+    - Added startup setting for "cheap" recipes (x5 Uranium-238 instead of x1 Uranium-235).  
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
   Info:
     - Compatibility with mod "belt-legacy" was added.
